@@ -1,0 +1,173 @@
+:root {
+  --brand-color: #212121;
+  --color-black: black;
+  --color-blu: #2196f3;
+  --color-wight: #ffffff;
+  --color-gray: #757575;
+  --background-color: #2f303a;
+  --color-footer-contacts: rgba(255, 255, 255, 0.6);
+  --button-portfolio-background-color: #f5f4fa;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--brand-color);
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  height: 31px;
+  height: 100%;
+  letter-spacing: 3%;
+  text-decoration: none;
+}
+
+.black {
+  color: var(--color-black);
+}
+
+.pages {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 2%;
+  color: var(--brand-color);
+}
+
+.contacts {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 2%;
+  color: var(--brand-color);
+}
+
+.pages:hover,
+.pages:focus {
+  color: var(--color-blu);
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: var(--color-blu);
+}
+
+.button-order {
+  background-color: var(--color-blu);
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 30px;
+  line-height: 160%;
+  letter-spacing: 6%;
+  color: var(--color-wight);
+}
+
+.title_1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+  font-size: 44px;
+  color: var(--color-wight);
+}
+
+.title_2 {
+  font-weight: 700;
+  letter-spacing: 3%;
+}
+.title_3_advantages {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  font-style: bold;
+  line-height: 16px;
+  letter-spacing: 3%;
+}
+.title_3_names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 3%;
+}
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--color-gray);
+  letter-spacing: 3%;
+}
+.without_marker {
+  list-style-type: none;
+}
+.order {
+  background-color: var(--background-color);
+}
+.blu {
+  color: var(--color-blu);
+}
+.invisibl {
+  display: none;
+}
+.footer_background {
+  background-color: var(--background-color);
+}
+.wight {
+  color: var(--color-wight);
+}
+.footer-address {
+  font-style: 400;
+  font-size: 14px;
+  letter-spacing: 3%;
+  color: var(--color-wight);
+  text-decoration: none;
+}
+.footer-contacts {
+  font-style: 400;
+  font-size: 14px;
+  letter-spacing: 3%;
+  color: var(--color-footer-contacts);
+  text-decoration: none;
+}
+
+.footer-contacts:focus {
+  color: var(--color-blu);
+}
+.button-portfolio {
+  background-color: var(--button-portfolio-background-color);
+  font-style: Bold;
+  letter-spacing: 6%;
+  color: var(--brand-color);
+}
+.button-portfolio:hover {
+  background-color: var(--color-blu);
+}
+
+.title_2_portfolio {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 6%;
+}
+
+.filter {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--color-gray);
+  letter-spacing: 3%;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.linc_current {
+  color: var(--color-blu);
+}
