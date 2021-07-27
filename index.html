@@ -18,53 +18,55 @@
 
   <body>
     <!--Шапка сторінки-->
-    <header>
-      <nav>
+    <header class="header_row">
+      <nav class="container_header">
         <a class="logo" href=""><span class="blu">Web</span><span class="black">Studio</span></a>
-        <ul class="without_marker">
-          <li><a class="pages linc_current" href="index.html">Студия</a></li>
-          <li><a class="pages" href="portfolio.html">Потрфолио</a></li>
-          <li><a class="pages" href="">Контакты</a></li>
+        <ul class="menu without_marker">
+          <li><a class="item pages linc_current" href="index.html">Студия</a></li>
+          <li><a class="item pages" href="portfolio.html">Потрфолио</a></li>
+          <li><a class="item pages" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="without_marker">
-        <li><a class="contacts" href="">info@devstudio.com</a></li>
-        <li><a class="contacts" href="">+38 096 111 11 11</a></li>
+      <ul class="menu container_header without_marker">
+        <li><a class="item contacts" href="">info@devstudio.com</a></li>
+        <li><a class="item contacts" href="">+38 096 111 11 11</a></li>
       </ul>
     </header>
 
     <main>
       <section class="order">
-        <h1 class="title_1">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="button-order">Заказать услугу</button>
+        <div class="container_order">
+          <h1 class="title_1">Эффективные решения<br />для вашего бизнеса</h1>
+          <button type="button" class="button_order">Заказать услугу</button>
+        </div>
       </section>
 
-      <section>
+      <section class="container_skills">
         <h2 class="visually-hidden title_2">Наши сильные стороны</h2>
-        <ul class="without_marker">
-          <li>
-            <h3 class="title_3_advantages">Внимание к деталям</h3>
+        <ul class="menu without_marker">
+          <li class="item_skills">
+            <h3 class="title_3_skills">Внимание к деталям</h3>
             <p class="text">
               Идейные соображения, а также <br />
               начало повседневной работы по <br />формированию позиции.
             </p>
           </li>
-          <li>
-            <h3 class="title_3_advantages">Пунктуальность</h3>
+          <li class="item_skills">
+            <h3 class="title_3_skills">Пунктуальность</h3>
             <p class="text">
               Задача организации, в особенности <br />же рамки и место обучения кадров <br />влечет
               за собой.
             </p>
           </li>
-          <li>
-            <h3 class="title_3_advantages">Планирование</h3>
+          <li class="item_skills">
+            <h3 class="title_3_skills">Планирование</h3>
             <p class="text">
               Равным образом консультация с<br />
               широким активом в значительной <br />степени обуславливает.
             </p>
           </li>
-          <li>
-            <h3 class="title_3_advantages">Современные технологии</h3>
+          <li class="item_skills">
+            <h3 class="title_3_skills">Современные технологии</h3>
             <p class="text">
               Значимость этих проблем настолько <br />очевидна, что реализация плановых<br />
               заданий.
@@ -73,40 +75,44 @@
         </ul>
       </section>
 
-      <section>
+      <section class="container_affairs">
         <h2 class="title_2">Чем мы занимаемся</h2>
-        <ul class="without_marker">
-          <li>
+        <ul class="menu_affairs without_marker">
+          <li class="item_affairs">
             <img src="./images/1.jpg" alt="Десктопные приложения" width="370" />
           </li>
-          <li>
+          <li class="item_affairs">
             <img src="./images/2.jpg" alt="Мобыльниые приложения" width="370" />
           </li>
-          <li>
+          <li class="item_affairs">
             <img src="./images/3.jpg" alt="Дизайнерские решения" width="370" />
           </li>
         </ul>
       </section>
 
-      <section>
+      <section class="container_team">
         <h2 class="title_2">Наша команда</h2>
-        <ul class="without_marker">
+        <ul class="menu_team without_marker">
           <li>
-            <img src="./images/4.jpg" alt="Игорь Демьяненко" width="270" />
-            <h3 class="title_3_names">Игорь Демьяненко</h3>
-            <p lang="en" class="text">Product Designer</p>
+            <div class="item_team">
+              <img src="./images/4.jpg" alt="Игорь Демьяненко" width="270" />
+              <h3 class="title_3_names">Игорь Демьяненко</h3>
+              <p lang="en" class="text">Product Designer</p>
+            </div>
           </li>
           <li>
-            <img src="./images/5.jpg" alt="Ольга Репина" width="270" />
-            <h3 class="title_3_names">Ольга Репина</h3>
-            <p lang="en" class="text">Frontend Developer</p>
+            <div class="item_team">
+              <img src="./images/5.jpg" alt="Ольга Репина" width="270" />
+              <h3 class="title_3_names">Ольга Репина</h3>
+              <p lang="en" class="text">Frontend Developer</p>
+            </div>
           </li>
-          <li>
+          <li class="item_team">
             <img src="./images/6.jpg" alt="Николай Тарасов" width="270" />
             <h3 class="title_3_names">Николай Тарасов</h3>
             <p lang="en" class="text">Marketing</p>
           </li>
-          <li>
+          <li class="item_team">
             <img src="./images/7.jpg" alt="Михаил Ермаков" width="270" />
             <h3 class="title_3_names">Михаил Ермаков</h3>
             <p lang="en" class="text">UI Designer</p>
@@ -115,14 +121,16 @@
       </section>
     </main>
     <footer class="footer_background">
-      <a class="logo" href="/"><span class="blu">Web</span><span class="wight">Studio</span></a>
-      <address>
-        <p class="footer-address">г. Киев, пр-т Леси Украинки, 26</p>
-        <ul class="without_marker">
-          <li><a class="footer-contacts" href="">info@devstudio.com</a></li>
-          <li><a class="footer-contacts" href="">+38 096 111 11 11</a></li>
-        </ul>
+      <div class="container_footer">
+        <a class="logo" href="/"><span class="blu">Web</span><span class="wight">Studio</span></a>
+        <address>
+          <p class="footer-address">г. Киев, пр-т Леси Украинки, 26</p>
+          <ul class="without_marker">
+            <li><a class="footer-contacts" href="">info@devstudio.com</a></li>
+            <li><a class="footer-contacts" href="">+38 096 111 11 11</a></li>
+          </ul>
       </address>
+      </div class="container_footer">
     </footer>
   </body>
 </html>
