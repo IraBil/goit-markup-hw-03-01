@@ -266,18 +266,11 @@ body {
   font-weight: 700;
   font-size: 18px;
   letter-spacing: 6%;
+  padding-left: 24px;
 }
 
-.container_footer {
-  width: 1200px;
-  padding-left: 15px;
-  padding-top: 94px;
-  padding-right: 15px;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  background-color: var(--background-color);
+.filter {
+  padding-left: 24px;
 }
 
 .container_filter {
@@ -288,6 +281,17 @@ body {
   margin-right: 200px;
   margin-bottom: 0px;
   margin-top: 0px;
+}
+.container_footer {
+  width: 1200px;
+  padding-left: 15px;
+  padding-top: 94px;
+  padding-right: 15px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  background-color: var(--background-color);
 }
 
 .button_portfolio {
@@ -321,7 +325,7 @@ body {
   flex-wrap: wrap;
 }
 .item_works {
-  border: var(--color-blu);
+  border: 1px solid var(--item-teem-shadow);
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
