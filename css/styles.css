@@ -312,8 +312,9 @@ body {
 }
 
 .button_portfolio_all:hover {
-  background-color: var(--button-portfolio-background-color);
-  color: var(--brand-color);
+  /* background-color: var(--button-portfolio-background-color);
+  color: var(--brand-color); */
+  cursor: pointer;
 }
 
 .button_portfolio {
@@ -333,10 +334,10 @@ body {
 .button_portfolio:hover {
   background-color: var(--color-blu);
   color: var(--color-wight);
+  cursor: pointer;
 }
 
 .menu_filter {
-  cursor: pointer;
   padding-left: 280px;
   display: flex;
   margin-top: 94px;
