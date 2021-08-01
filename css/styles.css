@@ -18,11 +18,18 @@ html {
   --color-footer-contacts: rgba(255, 255, 255, 0.6);
   --button-portfolio-background-color: #f5f4fa;
   --item-teem-shadow: #e5e5e5;
+  --header_line_bottom: #ececec;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--brand-color);
+}
+
+.header_line_bottom {
+  border-bottom: 1px solid var(--header_line_bottom);
+  /* padding-top: 200px;
+  padding-bottom: 200px; */
 }
 
 .container {
@@ -55,14 +62,17 @@ body {
 
 .item_row_pages {
   display: block;
-  padding: 32px 50px 31px 0px;
+  padding-top: 32px;
+  padding-bottom: 31px;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
   color: var(--brand-color);
 }
-
+.indent_item_pages {
+  margin-right: 50px;
+}
 .item_row_contacts {
   display: block;
   padding: 32px 0px 31px 50px;
@@ -92,8 +102,8 @@ body {
 .linc_current {
   color: var(--color-blu);
 }
+
 .row_header {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
   justify-content: space-between;
 }
 
@@ -148,6 +158,7 @@ body {
   margin: 0 auto;
   min-width: 200px;
   height: 50px;
+  border: none;
 }
 
 .title_hidden {
