@@ -17,23 +17,21 @@
   </head>
 
   <body>
-    <header >
-      <section class="section_header">
-        <div class="container row_header">
-          <nav class="row_logo_pages">
-            <a class="logo" href=""><span class="blu">Web</span><span class="black">Studio</span></a>
-            <ul class="row_pages without_marker">
-              <li class="indent_item_pages"><a class="item_row_pages linc_current" href="index.html">Студия</a></li>
-              <li class="indent_item_pages"><a class="item_row_pages" href="portfolio.html">Потрфолио</a></li>
-              <li class="indent_item_pages"><a class="item_row_pages" href="">Контакты</a></li>
-            </ul>
-          </nav>
-          <ul class="row_contacts without_marker">
-            <li><a class="item_row_contacts mail" href="">info@devstudio.com</a></li>
-            <li><a class="item_row_contacts" href="">+38 096 111 11 11</a></li>
+    <header class="header_background">
+      <div class="container row_header"> 
+        <nav class="row_logo_pages"> 
+          <a class="logo" href="">Web<span class="black">Studio</span></a>
+          <ul class="row_pages without_marker">
+            <li class="indent_item_pages"><a class="item_row_pages linc_current" href="index.html">Студия</a></li>
+            <li class="indent_item_pages"><a class="item_row_pages" href="portfolio.html">Потрфолио</a></li>
+            <li class="indent_item_pages"><a class="item_row_pages" href="">Контакты</a></li>
           </ul>
-        </div>
-      </section>        
+        </nav>
+        <ul class="row_contacts without_marker">
+          <li><a class="item_row_contacts mail" href="">info@devstudio.com</a></li>
+          <li><a class="item_row_contacts" href="">+38 096 111 11 11</a></li>
+        </ul>
+      </div>
     </header>
 
     <main>
@@ -48,21 +46,21 @@
         <div class="container">
           <h2 class="visually-hidden title_hidden">Наши сильные стороны</h2>
           <ul class="skills_row without_marker">
-            <li>
+            <li class="skills_blocks">
               <h3 class="title_skills">Внимание к деталям</h3>
               <p class="text">
                 Идейные соображения, а также <br />
                 начало повседневной работы по <br />формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="skills_blocks">
               <h3 class="title_skills">Пунктуальность</h3>
               <p class="text">
                 Задача организации, в особенности <br />же рамки и место обучения кадров <br />влечет
                 за собой.
               </p>
             </li>
-            <li>
+            <li class="skills_blocks">
               <h3 class="title_skills">Планирование</h3>
               <p class="text">
                 Равным образом консультация с<br />
@@ -84,10 +82,10 @@
         <div class="container">
           <h2 class="title_affairs">Чем мы занимаемся</h2>
           <ul class="affairs_row without_marker">
-            <li>
+            <li class="affairs_foto">
               <img src="./images/1.jpg" alt="Десктопные приложения" width="370" />
             </li>
-            <li>
+            <li class="affairs_foto">
               <img src="./images/2.jpg" alt="Мобильниые приложения" width="370" />
             </li>
             <li>
@@ -103,33 +101,40 @@
           <ul class="team_row without_marker">
             <li class="item_team">
               <img class="foto_team" src="./images/4.jpg" alt="Игорь Демьяненко" width="270" />
-              <h3 class="title_names">Игорь Демьяненко</h3>
-              <p lang="en" class="text team">Product Designer</p>
+              <div class="team_text">
+                <h3 class="title_names">Игорь Демьяненко</h3>
+                <p lang="en" class="text team">Product Designer</p>
+              </div>  
             </li>
             <li class="item_team">
               <img class="foto_team" src="./images/5.jpg" alt="Ольга Репина" width="270" />
-              <h3 class="title_names">Ольга Репина</h3>
-              <p lang="en" class="text">Frontend Developer</p>
+              <div class="team_text">
+                <h3 class="title_names">Ольга Репина</h3>
+                <p lang="en" class="text">Frontend Developer</p>
+              </div>
             </li>
             <li class="item_team">
-              <img class="foto_team" src="./images/6.jpg" alt="Николай Тарасов" width="270" />
-              <h3 class="title_names">Николай Тарасов</h3>
-              <p lang="en" class="text">Marketing</p>
+              <img src="./images/6.jpg" alt="Николай Тарасов" width="270" />
+              <div class="team_text">
+                <h3 class="title_names">Николай Тарасов</h3>
+                <p lang="en" class="text">Marketing</p>
+              </div>
             </li>
             <li class="item_team">
-              <img class="foto_team" src="./images/7.jpg" alt="Михаил Ермаков" width="270" />
-              <h3 class="title_names">Михаил Ермаков</h3>
-              <p lang="en" class="text">UI Designer</p>
+              <img src="./images/7.jpg" alt="Михаил Ермаков" width="270" />
+              <div class="team_text">
+                <h3 class="title_names">Михаил Ермаков</h3>
+                <p lang="en" class="text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>  
       </section>
     </main>
 
-    <footer>
-      <section class="section_footer">
+      <footer class="footer_background">
         <div class="container">
-          <a class="footer_logo" href="/"><span class="blu">Web</span><span class="wight">Studio</span></a>
+          <a class="footer_logo" href="/">Web<span class="wight">Studio</span></a>
           <address>
             <p class="footer_address">г. Киев, пр-т Леси Украинки, 26</p>
             <ul class="without_marker">
@@ -137,9 +142,8 @@
               <li><a class="footer-contacts" href="">+38 096 111 11 11</a></li>
             </ul>
           </address>
-        </div class="container">
-      </section>
-    </footer>
+        </div>
+      </footer>
 
   </body>
 </html>
